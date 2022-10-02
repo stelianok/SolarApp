@@ -9,7 +9,9 @@ import {
   Body,
   Title,
   Astronomer,
+  ButtonContainer,
   Button,
+  LinearGradientBackground,
   Row,
   ButtonText,
   WrinklySunIcon,
@@ -34,11 +36,17 @@ export default function IntroScreen() {
             </Title>
           </Title>
           <Astronomer source={AstronomerPic} />
-          <Button>
-            <Row>
-              <ButtonText>Let's Go!</ButtonText>
-              <WrinklySunIcon />
-            </Row>
+          <Button
+            onPress={() => {
+              console.warn('XD');
+            }}>
+            <LinearGradientBackground
+              colors={['#6A3BB4', '#AE49C1', '#EC56CC']}>
+              <Row>
+                <ButtonText>Let's Go!</ButtonText>
+                <WrinklySunIcon />
+              </Row>
+            </LinearGradientBackground>
           </Button>
         </Body>
       </Background>
