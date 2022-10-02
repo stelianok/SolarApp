@@ -7,9 +7,6 @@ import {
   StarsContainer,
   Stars,
   Title,
-  TitleBlue,
-  Probe,
-  TapToContinue,
 } from './styles';
 
 import ParkerProbe from './../../../../assets/images/OnBoarding/Parker.png';
