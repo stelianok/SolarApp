@@ -7,8 +7,8 @@ import StarsSVG from '../../../../assets/images/StarsBackMobile.svg';
 import WrinklySunSVG from '../../../../assets/images/OnBoarding/SunWrinkly.svg';
 
 import StyleGuide from '../../../StyleGuide';
+import LinearGradient from 'react-native-linear-gradient';
 
-const { width, height } = Dimensions.get('window');
 const marginHoriz = 34;
 export const Container = styled.SafeAreaView`
   flex: 1;
@@ -58,9 +58,30 @@ export const SunAndRocket = styled.Image`
   margin-top: 25px;
 `;
 
-export const TapToContinue = styled(Heading4)`
-  color: ${StyleGuide.colors.brand.white};
-  text-align: center;
+export const Button = styled.TouchableOpacity`
+  border-radius: 50px;
+  width: 246px;
+  height: 45px;
 
-  padding-bottom: 50px;
+  margin-bottom: 65px;
+`;
+
+export const LinearGradientBackground = styled(LinearGradient)`
+  flex: 1;
+  border-radius: 50px;
+`;
+
+export const Row = styled.View`
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+`;
+export const ButtonText = styled(Heading4)`
+  color: ${StyleGuide.colors.brand.white};
+  margin-right: 15px;
+`;
+export const WrinklySunIcon = styled(WrinklySunSVG)`
+width: 25,
+height: 25,
 `;
