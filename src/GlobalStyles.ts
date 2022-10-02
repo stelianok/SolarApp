@@ -16,7 +16,7 @@ export const Heading1 = styled.Text`
   line-height: 57.2px;
 `;
 export const Heading2 = styled.Text`
-  font-family: 'Kanit-Bold';
+  font-family: 'Nordeco-Bold';
   font-size: 36px;
   line-height: 46.8px;
 `;
