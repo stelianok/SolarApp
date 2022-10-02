@@ -1,11 +1,35 @@
 import React from 'react';
-import {Container} from './styles';
-import {Heading1} from '../../../GlobalStyles';
+
+import {
+  Container,
+  Background,
+  Body,
+  StarsContainer,
+  Stars,
+  Title,
+  TitleBlue,
+  Probe,
+  TapToContinue,
+} from './styles';
+
+import ParkerProbe from './../../../../assets/images/OnBoarding/Parker.png';
 
 export default function FirstBoard() {
   return (
     <Container>
-      <Heading1>XD</Heading1>
+      <Background>
+        <StarsContainer>
+          <Stars />
+        </StarsContainer>
+        <Body>
+          <Title>
+            <TitleBlue>Parker Solar Probe </TitleBlue>
+            is a NASA space probe
+          </Title>
+          <Probe resizeMode={'contain'} source={ParkerProbe} />
+          <TapToContinue>Tap to continue</TapToContinue>
+        </Body>
+      </Background>
     </Container>
   );
 }
