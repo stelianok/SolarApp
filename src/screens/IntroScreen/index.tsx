@@ -17,6 +17,7 @@ import {
 } from './styles';
 
 import StyleGuide from '../../StyleGuide';
+
 export default function IntroScreen() {
   return (
     <Container>
