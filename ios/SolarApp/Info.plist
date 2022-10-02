@@ -55,6 +55,13 @@
 	<array>
 		<string>Nordeco-Bold.ttf</string>
 		<string>Nordeco-Light.ttf</string>
+		<string>Nordeco-Regular.ttf</string>
+		<string>Nordeco-SemiBold.ttf</string>
+		<string>NordecoCyrillic-Bold.ttf</string>
+		<string>NordecoCyrillic-Light.ttf</string>
+		<string>NordecoCyrillic-Regular.ttf</string>
+		<string>NordecoCyrillic-SemiBold.ttf</string>
+		<string>Kanit-Bold.ttf</string>
 	</array>
 </dict>
 </plist>

@@ -2,12 +2,40 @@
   "migIndex": 1,
   "data": [
     {
+      "path": "assets/fonts/Kanit/Kanit-Bold.ttf",
+      "sha1": "4d376a5447efe2ece1e3e39ff0fc2bbf3af0e5f8"
+    },
+    {
       "path": "assets/fonts/Nordeco/Nordeco-Bold.ttf",
       "sha1": "1e231317c81d9c8a4e2547436cf00ef51fffc8dc"
     },
     {
       "path": "assets/fonts/Nordeco/Nordeco-Light.ttf",
       "sha1": "e5e394d1ff0a8c29e3758c2f54a55ee4ff13acd7"
+    },
+    {
+      "path": "assets/fonts/Nordeco/Nordeco-Regular.ttf",
+      "sha1": "338a266af21a14640860904313dad8e0824edda8"
+    },
+    {
+      "path": "assets/fonts/Nordeco/Nordeco-SemiBold.ttf",
+      "sha1": "36f5a7d249e74231d93c64156e2ac8fcbb3b2d33"
+    },
+    {
+      "path": "assets/fonts/Nordeco/NordecoCyrillic-Bold.ttf",
+      "sha1": "1b70054c326921e2f52a5c5fbed2bf233f1e5a61"
+    },
+    {
+      "path": "assets/fonts/Nordeco/NordecoCyrillic-Light.ttf",
+      "sha1": "790886cd320fb991856dd2173851f5bdd9863d30"
+    },
+    {
+      "path": "assets/fonts/Nordeco/NordecoCyrillic-Regular.ttf",
+      "sha1": "cee26e7e799f29731b3e242067e8806b96696d0e"
+    },
+    {
+      "path": "assets/fonts/Nordeco/NordecoCyrillic-SemiBold.ttf",
+      "sha1": "20cdc141aff42d2f5d9a964d96d474bea7d2bd76"
     }
   ]
 }
