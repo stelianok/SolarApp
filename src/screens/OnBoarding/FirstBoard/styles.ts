@@ -1,7 +1,8 @@
 import styled from 'styled-components/native';
-import { Heading2, Heading4 } from '../../../GlobalStyles';
+import { Heading2, Heading3, Heading4 } from '../../../GlobalStyles';
 
 import StarsSVG from '../../../../assets/images/StarsBackMobile.svg';
+
 import StyleGuide from '../../../StyleGuide';
 
 export const Container = styled.SafeAreaView`
@@ -36,11 +37,11 @@ export const Body = styled.View`
   margin-top: 32px;
 `;
 
-export const Title = styled(Heading2)`
+export const Title = styled(Heading3)`
   color: ${StyleGuide.colors.brand.white};
   text-align: center;
 `;
-export const TitleBlue = styled(Heading2)`
+export const TitleBlue = styled(Heading3)`
   color: ${StyleGuide.colors.brand.blue};
   text-align: center;
 `;
@@ -51,4 +52,6 @@ export const Probe = styled.Image`
 export const TapToContinue = styled(Heading4)`
   color: ${StyleGuide.colors.brand.white};
   text-align: center;
+
+  padding-bottom: 25px;
 `;

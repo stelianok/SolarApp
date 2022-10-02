@@ -23,8 +23,9 @@ export default function FirstBoard() {
         </StarsContainer>
         <Body>
           <Title>
-            <TitleBlue>Parker Solar Probe </TitleBlue>
-            is a NASA space probe
+            A scientific mission to unlock the mysteries of the{' '}
+            <TitleBlue>Sun's corona</TitleBlue> and{' '}
+            <TitleBlue>solar wind</TitleBlue>
           </Title>
           <Probe resizeMode={'contain'} source={ParkerProbe} />
           <TapToContinue>Tap to continue</TapToContinue>
