@@ -9,7 +9,6 @@ import {
   Body,
   Title,
   Astronomer,
-  ButtonContainer,
   Button,
   LinearGradientBackground,
   Row,
@@ -17,7 +16,6 @@ import {
   WrinklySunIcon,
 } from './styles';
 
-import {Heading2} from '../../GlobalStyles';
 import StyleGuide from '../../StyleGuide';
 export default function IntroScreen() {
   return (

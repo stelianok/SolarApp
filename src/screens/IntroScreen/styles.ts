@@ -1,6 +1,5 @@
 import styled from 'styled-components/native';
 import StyleGuide from '../../StyleGuide';
-import { RectButton } from 'react-native-gesture-handler';
 
 import StarsSVG from '../../../assets/images/planets/Stars.svg';
 import SunWrinkly from '../../../assets/images/OnBoarding/SunWrinkly.svg';
@@ -43,7 +42,6 @@ export const Astronomer = styled.Image`
   height: 345px;
 `;
 
-export const ButtonContainer = styled.View``;
 export const Button = styled.TouchableOpacity`
   border-radius: 50px;
   width: 246px;
