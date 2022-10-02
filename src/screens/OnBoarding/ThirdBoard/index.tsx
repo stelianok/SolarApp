@@ -1,11 +1,37 @@
 import React from 'react';
-import {Container} from './styles';
-import {Heading1} from '../../../GlobalStyles';
+
+import {
+  Container,
+  Background,
+  Body,
+  StarsContainer,
+  Stars,
+  Title,
+  TitleBlue,
+  PlanetGroupContainer,
+  PlanetGroup,
+  TapToContinue,
+} from './styles';
 
 export default function ThirdBoard() {
   return (
     <Container>
-      <Heading1>XD</Heading1>
+      <Background>
+        <StarsContainer>
+          <Stars />
+        </StarsContainer>
+        <Body>
+          <Title>
+            The first mission named for a living scientist:{' '}
+            <TitleBlue>Dr. Eugene Parker</TitleBlue>, who theorized the
+            existence of the solar wind
+          </Title>
+          <PlanetGroupContainer>
+            <PlanetGroup />
+          </PlanetGroupContainer>
+          <TapToContinue>Tap to continue</TapToContinue>
+        </Body>
+      </Background>
     </Container>
   );
 }
