@@ -28,7 +28,7 @@ export default function FirstBoard() {
             <TitleBlue>solar wind</TitleBlue>
           </Title>
           <Probe resizeMode={'contain'} source={ParkerProbe} />
-          <TapToContinue>Tap to continue</TapToContinue>
+          <TapToContinue>Slide to continue</TapToContinue>
         </Body>
       </Background>
     </Container>

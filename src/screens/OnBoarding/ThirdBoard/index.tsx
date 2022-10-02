@@ -29,7 +29,7 @@ export default function ThirdBoard() {
           <PlanetGroupContainer>
             <PlanetGroup />
           </PlanetGroupContainer>
-          <TapToContinue>Tap to continue</TapToContinue>
+          <TapToContinue>Slide to continue</TapToContinue>
         </Body>
       </Background>
     </Container>

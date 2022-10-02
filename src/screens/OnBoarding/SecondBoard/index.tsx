@@ -28,7 +28,7 @@ export default function SecondBoard() {
             mission
           </Title>
           <SolarSystem resizeMode={'contain'} source={SolarSystemImg} />
-          <TapToContinue>Tap to continue</TapToContinue>
+          <TapToContinue>Slide to continue</TapToContinue>
         </Body>
       </Background>
     </Container>
