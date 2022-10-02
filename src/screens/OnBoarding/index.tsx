@@ -7,7 +7,6 @@ import FourthBoard from './FourthBoard';
 
 import Swiper from 'react-native-swiper';
 import StyleGuide from '../../StyleGuide';
-import {View} from 'react-native';
 import {Dot} from './styles';
 
 export default function OnBoarding() {
