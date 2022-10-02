@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Nordeco/Nordeco-Bold.ttf",
+      "sha1": "1e231317c81d9c8a4e2547436cf00ef51fffc8dc"
+    },
+    {
+      "path": "assets/fonts/Nordeco/Nordeco-Light.ttf",
+      "sha1": "e5e394d1ff0a8c29e3758c2f54a55ee4ff13acd7"
+    }
+  ]
+}
