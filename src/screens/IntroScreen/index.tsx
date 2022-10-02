@@ -17,8 +17,11 @@ import {
 } from './styles';
 
 import StyleGuide from '../../StyleGuide';
+import {useNavigation} from '@react-navigation/native';
 
 export default function IntroScreen() {
+  const navigation = useNavigation();
+
   return (
     <Container>
       <Background>
@@ -37,7 +40,7 @@ export default function IntroScreen() {
           <Astronomer source={AstronomerPic} />
           <Button
             onPress={() => {
-              console.warn('XD');
+              navigation.navigate('OnBoarding');
             }}>
             <LinearGradientBackground
               colors={['#6A3BB4', '#AE49C1', '#EC56CC']}>

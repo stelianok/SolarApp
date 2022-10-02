@@ -8,12 +8,18 @@ import {
   Title,
   TitleBlue,
   SunAndRocket,
-  TapToContinue,
+  Button,
+  LinearGradientBackground,
+  Row,
+  ButtonText,
+  WrinklySunIcon,
 } from './styles';
 
 import SunAndRocketPic from './../../../../assets/images/OnBoarding/SunAndRocket.png';
+import {useNavigation} from '@react-navigation/native';
 
 export default function FourthBoard() {
+  const navigation = useNavigation();
   return (
     <Container>
       <Background>
@@ -28,7 +34,18 @@ export default function FourthBoard() {
             <TitleBlue>solar wind</TitleBlue>
           </Title>
           <SunAndRocket resizeMode={'contain'} source={SunAndRocketPic} />
-          <TapToContinue>Tap to continue</TapToContinue>
+          <Button
+            onPress={() => {
+              navigation.navigate('Home');
+            }}>
+            <LinearGradientBackground
+              colors={['#6A3BB4', '#AE49C1', '#EC56CC']}>
+              <Row>
+                <ButtonText>Let's Go!</ButtonText>
+                <WrinklySunIcon />
+              </Row>
+            </LinearGradientBackground>
+          </Button>
         </Body>
       </Background>
     </Container>

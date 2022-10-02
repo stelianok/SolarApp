@@ -1,8 +1,7 @@
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import IntroScreen from './screens/IntroScreen';
-import OnBoarding from './screens/OnBoarding';
+import StackNavigation from './navigations/StackNavigation';
 
 export default function App() {
-  return <NavigationContainer>{<OnBoarding />}</NavigationContainer>;
+  return <NavigationContainer>{<StackNavigation />}</NavigationContainer>;
 }
