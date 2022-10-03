@@ -1,8 +1,8 @@
 import styled from 'styled-components/native';
-import { Heading2, Heading3, Heading4 } from '../../../GlobalStyles';
+import { Heading3 } from '../../../GlobalStyles';
 
 import StarsSVG from '../../../../assets/images/StarsBackMobile.svg';
-
+import NasaLogoSVG from '../../../../assets/images/NASA_logo.svg';
 import StyleGuide from '../../../StyleGuide';
 
 export const Container = styled.SafeAreaView`
@@ -32,26 +32,21 @@ export const Stars = styled(StarsSVG)`
 export const Body = styled.View`
   flex: 1;
   align-items: center;
-  justify-content: space-around;
-  margin-horizontal: 34px;
+  margin-horizontal: 113px;
   margin-top: 32px;
 `;
+export const SolarSystem = styled.Image``;
+export const CapyLogo = styled.Image`
+  width: 200px;
+  height: 200px;
+`;
+export const ChallengeContainer = styled.View`
+  flex-direction: row;
+`;
+export const NasaLogo = styled(NasaLogoSVG)``;
+export const SpaceAppsLogo = styled.Image``;
 
 export const Title = styled(Heading3)`
-  color: ${StyleGuide.colors.brand.white};
+  color: ${StyleGuide.colors.brand.purple};
   text-align: center;
-`;
-export const TitleBlue = styled(Heading3)`
-  color: ${StyleGuide.colors.brand.blue};
-  text-align: center;
-`;
-export const Probe = styled.Image`
-  width: 375px;
-  height: 345px;
-`;
-export const TapToContinue = styled(Heading4)`
-  color: ${StyleGuide.colors.brand.white};
-  text-align: center;
-
-  padding-bottom: 25px;
 `;

@@ -57,7 +57,12 @@ export default function MainBottomTabNavigation() {
         options={{
           tabBarLabel: <LabelText>Orbit</LabelText>,
           tabBarIcon: ({color}) => (
-            <SpaceIcon width={22} height={22} style={{color: color}} />
+            <SpaceIcon
+              width={22}
+              height={22}
+              style={{color: color}}
+              onTouchEnd={() => {}}
+            />
           ),
         }}
       />
