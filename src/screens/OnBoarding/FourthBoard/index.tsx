@@ -36,7 +36,7 @@ export default function FourthBoard() {
           <SunAndRocket resizeMode={'contain'} source={SunAndRocketPic} />
           <Button
             onPress={() => {
-              navigation.navigate('Home');
+              navigation.navigate('MainTabs');
             }}>
             <LinearGradientBackground
               colors={['#6A3BB4', '#AE49C1', '#EC56CC']}>
