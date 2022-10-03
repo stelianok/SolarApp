@@ -11,7 +11,7 @@ import {
 
 import ParkerProbe from './../../../../assets/images/OnBoarding/Parker.png';
 
-export default function Home() {
+export default function Challenge() {
   return (
     <Container>
       <Background>
@@ -19,7 +19,7 @@ export default function Home() {
           <Stars />
         </StarsContainer>
         <Body>
-          <Title>Home</Title>
+          <Title>Challenge</Title>
         </Body>
       </Background>
     </Container>
