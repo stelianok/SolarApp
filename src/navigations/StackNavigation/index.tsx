@@ -1,7 +1,9 @@
+import React from 'react';
+
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import IntroScreen from '../../screens/IntroScreen';
-import Home from '../../screens/MainTabs/Home';
 import OnBoarding from '../../screens/OnBoarding';
+import MainBottomTabNavigation from '../MainBottomTabNavigation';
 
 const Stack = createNativeStackNavigator();
 
@@ -13,7 +15,7 @@ export default function StackNavigation() {
       }}>
       <Stack.Screen name="Introduction" component={IntroScreen} />
       <Stack.Screen name="OnBoarding" component={OnBoarding} />
-      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="MainTabs" component={MainBottomTabNavigation} />
     </Stack.Navigator>
   );
 }
