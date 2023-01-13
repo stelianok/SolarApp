@@ -28,7 +28,7 @@ export default function Challenge() {
               <ContentCard>
                 <RowContainer>
                   <ContentTitle>Challenge</ContentTitle>
-                  <ContentImage source={ParkerProbe} />
+                  <ContentImage resizeMode={'contain'} source={ParkerProbe} />
                 </RowContainer>
                 <ContentDescription>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -38,8 +38,10 @@ export default function Challenge() {
                 </ContentDescription>
               </ContentCard>
               <ContentCard>
-                <ContentTitle>Solution</ContentTitle>
-                <SpaceAppsLogo />
+                <RowContainer>
+                  <ContentTitle>Solution</ContentTitle>
+                  <SpaceAppsLogo />
+                </RowContainer>
                 <ContentDescription>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Provident ducimus tempore minima tenetur perspiciatis sequi

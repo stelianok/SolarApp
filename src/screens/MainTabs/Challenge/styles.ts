@@ -21,24 +21,33 @@ export const Body = styled.View`
   margin-top: 32px;
 `;
 
-export const ContentContainer = styled.View``;
-export const ContentCard = styled.View`
+export const ContentContainer = styled.View`
   align-items: center;
+  justify-content: space-between;
+`;
+
+export const ContentCard = styled.View`
+  flex: 1;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
 `;
 export const RowContainer = styled.View`
   flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 `;
 export const ContentTitle = styled(Heading3)`
   color: ${StyleGuide.colors.brand.purple};
+  text-align: center;
 `;
-export const ContentImage = styled.Image``;
+export const ContentImage = styled.Image`
+  width: 169.22px;
+  height: 117.7px;
+  transform: rotate(20deg);
+`;
 
 export const ContentDescription = styled(ParagraphMobile)`
   color: '#FFF';
   text-align: center;
-`;
-
-export const Probe = styled.Image`
-  width: 375px;
-  height: 345px;
 `;
