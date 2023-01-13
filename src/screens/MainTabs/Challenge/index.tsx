@@ -1,12 +1,10 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView } from 'react-native-gesture-handler';
 
 import {
   Container,
   Background,
   Body,
-  StarsContainer,
-  Stars,
   RowContainer,
   ContentContainer,
   ContentCard,
@@ -17,14 +15,13 @@ import {
 
 import ParkerProbe from './../../../../assets/images/OnBoarding/Parker.png';
 import SpaceAppsLogo from '../../../components/SpaceAppsLogo';
+import StarsBackground from '../../../components/StarsBackground';
 
 export default function Challenge() {
   return (
     <Container>
       <Background>
-        <StarsContainer>
-          <Stars />
-        </StarsContainer>
+        <StarsBackground />
         <Body>
           <ContentContainer>
             <ScrollView>
@@ -33,7 +30,6 @@ export default function Challenge() {
                   <ContentTitle>Challenge</ContentTitle>
                   <ContentImage source={ParkerProbe} />
                 </RowContainer>
-
                 <ContentDescription>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Provident ducimus tempore minima tenetur perspiciatis sequi

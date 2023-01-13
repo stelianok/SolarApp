@@ -1,7 +1,6 @@
 import styled from 'styled-components/native';
 import { Heading3 } from '../../../GlobalStyles';
 
-import StarsSVG from '../../../../assets/images/StarsBackMobile.svg';
 import NasaLogoSVG from '../../../../assets/images/NASA_logo.svg';
 import StyleGuide from '../../../StyleGuide';
 
@@ -12,20 +11,7 @@ export const Container = styled.SafeAreaView`
 export const Background = styled.View`
   flex: 1;
   align-items: center;
-  /* background-color: ${StyleGuide.colors.dark.dark_4}; */
-`;
-
-export const StarsContainer = styled.SafeAreaView`
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 35px;
-  margin: auto;
-`;
-
-export const Stars = styled(StarsSVG)`
-  width: 45px;
-  height: 45px;
+  background-color: ${StyleGuide.colors.dark.dark_4};
 `;
 
 export const Body = styled.View`
