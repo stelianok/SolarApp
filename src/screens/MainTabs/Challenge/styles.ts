@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { Heading3, Heading4 } from '../../../GlobalStyles';
+import { Heading3, Heading4, ParagraphMobile } from '../../../GlobalStyles';
 
 import StarsSVG from '../../../../assets/images/StarsBackMobile.svg';
 
@@ -36,21 +36,29 @@ export const Body = styled.View`
   margin-top: 32px;
 `;
 
-export const Title = styled(Heading3)`
-  color: ${StyleGuide.colors.brand.white};
+export const ContentContainer = styled.View``;
+export const ContentCard = styled.View`
+  align-items: center;
+`;
+export const RowContainer = styled.View`
+  flex-direction: row;
+`;
+export const ContentTitle = styled(Heading3)`
+  color: ${StyleGuide.colors.brand.purple};
+`;
+export const ContentImage = styled.Image``;
+
+export const ContentDescription = styled(ParagraphMobile)`
+  color: '#FFF';
   text-align: center;
 `;
-export const TitleBlue = styled(Heading3)`
-  color: ${StyleGuide.colors.brand.blue};
-  text-align: center;
-`;
+
 export const Probe = styled.Image`
   width: 375px;
   height: 345px;
 `;
-export const TapToContinue = styled(Heading4)`
-  color: ${StyleGuide.colors.brand.white};
-  text-align: center;
 
-  padding-bottom: 25px;
+export const SpaceAppsLogo = styled.Image`
+  width: 110px;
+  height: 110px;
 `;
