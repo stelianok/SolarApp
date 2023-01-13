@@ -31,7 +31,7 @@ export default function Home() {
           <CapyLogo resizeMode={'contain'} source={CapyLogoPic} />
           <Title>A challenge Made by: </Title>
           <ChallengeContainer>
-            <NasaLogo width={110} height={92} />
+            <NasaLogo width={110} height={110} />
             <SpaceAppsLogo source={SpaceAppsLogoPic} />
           </ChallengeContainer>
         </Body>
