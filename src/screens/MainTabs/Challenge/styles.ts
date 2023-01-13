@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { Heading2, Heading3, Heading4 } from '../../../GlobalStyles';
+import { Heading3, Heading4 } from '../../../GlobalStyles';
 
 import StarsSVG from '../../../../assets/images/StarsBackMobile.svg';
 
@@ -25,15 +25,14 @@ export const StarsContainer = styled.SafeAreaView`
 `;
 
 export const Stars = styled(StarsSVG)`
-  width: 45,
-  height: 45,
-  `;
+  width: 45;
+  height: 45;
+`;
 
 export const Body = styled.View`
   flex: 1;
   align-items: center;
   justify-content: space-around;
-  margin-horizontal: 34px;
   margin-top: 32px;
 `;
 
