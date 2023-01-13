@@ -45,10 +45,6 @@ export const ChallengeContainer = styled.View`
   flex-direction: row;
 `;
 export const NasaLogo = styled(NasaLogoSVG)``;
-export const SpaceAppsLogo = styled.Image`
-  width: 110px;
-  height: 110px;
-`;
 
 export const Title = styled(Heading3)`
   color: ${StyleGuide.colors.brand.purple};

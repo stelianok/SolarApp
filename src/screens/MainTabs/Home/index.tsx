@@ -10,13 +10,12 @@ import {
   CapyLogo,
   ChallengeContainer,
   NasaLogo,
-  SpaceAppsLogo,
   Title,
 } from './styles';
 
+import SpaceAppsLogo from '../../../components/SpaceAppsLogo';
 import SolarSystemPic from '../../../../assets/images/SolarSystemComplete.png';
 import CapyLogoPic from '../../../../assets/images/CapyLogo.png';
-import SpaceAppsLogoPic from '../../../../assets/images/SpaceAppsLogo.png';
 
 export default function Home() {
   return (
@@ -32,7 +31,7 @@ export default function Home() {
           <Title>A challenge Made by: </Title>
           <ChallengeContainer>
             <NasaLogo width={110} height={110} />
-            <SpaceAppsLogo source={SpaceAppsLogoPic} />
+            <SpaceAppsLogo />
           </ChallengeContainer>
         </Body>
       </Background>

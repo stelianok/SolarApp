@@ -13,11 +13,10 @@ import {
   ContentTitle,
   ContentImage,
   ContentDescription,
-  SpaceAppsLogo,
 } from './styles';
 
 import ParkerProbe from './../../../../assets/images/OnBoarding/Parker.png';
-import SpaceAppsLogoPic from '../../../../assets/images/SpaceAppsLogo.png';
+import SpaceAppsLogo from '../../../components/SpaceAppsLogo';
 
 export default function Challenge() {
   return (
@@ -44,7 +43,7 @@ export default function Challenge() {
               </ContentCard>
               <ContentCard>
                 <ContentTitle>Solution</ContentTitle>
-                <SpaceAppsLogo source={SpaceAppsLogoPic} />
+                <SpaceAppsLogo />
                 <ContentDescription>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Provident ducimus tempore minima tenetur perspiciatis sequi

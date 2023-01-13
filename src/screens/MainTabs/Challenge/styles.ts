@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { Heading3, Heading4, ParagraphMobile } from '../../../GlobalStyles';
+import { Heading3, ParagraphMobile } from '../../../GlobalStyles';
 
 import StarsSVG from '../../../../assets/images/StarsBackMobile.svg';
 
@@ -56,9 +56,4 @@ export const ContentDescription = styled(ParagraphMobile)`
 export const Probe = styled.Image`
   width: 375px;
   height: 345px;
-`;
-
-export const SpaceAppsLogo = styled.Image`
-  width: 110px;
-  height: 110px;
 `;
